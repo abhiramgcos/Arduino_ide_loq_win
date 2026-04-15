@@ -25,5 +25,5 @@ void loop() {
   Serial.println("Scanning...");
   pBLEScan->start(5, false);
   pBLEScan->clearResults();
-  delay(2000);
+  delay(500);
 }
